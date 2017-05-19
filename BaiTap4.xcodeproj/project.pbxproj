@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0EB7B11ECC3F560057DCFD /* hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A0EB7B01ECC3F560057DCFD /* hotel.jpg */; };
 		8A6BB0B21EC9AF47009433A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BB0B11EC9AF47009433A7 /* AppDelegate.swift */; };
 		8A6BB0B41EC9AF47009433A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BB0B31EC9AF47009433A7 /* ViewController.swift */; };
 		8A6BB0B71EC9AF47009433A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6BB0B51EC9AF47009433A7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0EB7B01ECC3F560057DCFD /* hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hotel.jpg; path = ../../../hinh/hotel.jpg; sourceTree = "<group>"; };
 		8A6BB0AE1EC9AF47009433A7 /* BaiTap4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiTap4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6BB0B11EC9AF47009433A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A6BB0B31EC9AF47009433A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0EB7B41ECC405E0057DCFD /* background */ = {
+			isa = PBXGroup;
+			children = (
+				8A0EB7B01ECC3F560057DCFD /* hotel.jpg */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
 		8A6BB0A51EC9AF47009433A7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		8A6BB0B01EC9AF47009433A7 /* BaiTap4 */ = {
 			isa = PBXGroup;
 			children = (
+				8A0EB7B41ECC405E0057DCFD /* background */,
 				8A6BB0B11EC9AF47009433A7 /* AppDelegate.swift */,
 				8A6BB0B31EC9AF47009433A7 /* ViewController.swift */,
 				8A6BB0B51EC9AF47009433A7 /* Main.storyboard */,
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					8A6BB0AD1EC9AF47009433A7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PZ54T3Z965;
 					};
 					8A6BB0C11EC9AF48009433A7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0EB7B11ECC3F560057DCFD /* hotel.jpg in Resources */,
 				8A6BB0BC1EC9AF47009433A7 /* LaunchScreen.storyboard in Resources */,
 				8A6BB0B91EC9AF47009433A7 /* Assets.xcassets in Resources */,
 				8A6BB0B71EC9AF47009433A7 /* Main.storyboard in Resources */,
@@ -401,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BaiTap4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cusc.com.BaiTap4;
@@ -412,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BaiTap4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cusc.com.BaiTap4;
@@ -484,6 +499,7 @@
 				8A6BB0D81EC9AF48009433A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6BB0D91EC9AF48009433A7 /* Build configuration list for PBXNativeTarget "BaiTap4Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +508,7 @@
 				8A6BB0DB1EC9AF48009433A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6BB0DC1EC9AF48009433A7 /* Build configuration list for PBXNativeTarget "BaiTap4UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +517,7 @@
 				8A6BB0DE1EC9AF48009433A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
